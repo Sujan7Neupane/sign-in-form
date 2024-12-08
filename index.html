@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="main-section">
+        <div class="container">
+            <div class="form">
+                <p class="main-title">start for free</p>
+                <h1 class="title">Create new account</h1>
+
+                <div class="row-div">
+                    <div class="input-wrapper">
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname">
+                        <i class='bx bxs-id-card'></i>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname">
+                        <i class='bx bxs-id-card'></i>
+                    </div>
+
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <i class='bx bxs-envelope' style='color:rgb(80, 80, 80)'></i>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="password">Password</label>
+                    <input type="password" name="pass" id="password">
+                    <i class='bx bx-show-alt' id="visible-btn"></i>
+                </div>
+
+                <p class="sign-in-link">Already have an account? <a class="link" href="#">Sign In</a></p>
+
+                <button class="btn-primary">Create account</button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
